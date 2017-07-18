@@ -11,43 +11,38 @@
 
     <Space
         android:layout_width="match_parent"
-        android:layout_height="90dp" />
+        android:layout_height="50dp" />
 
 
     <TextView
+        android:id="@+id/HeaderText"
         android:layout_width="wrap_content"
         android:layout_height="70dp"
         android:layout_gravity="center_horizontal"
-        android:textSize="70sp"
+        android:text="SANGUAN"
         android:textColor="#ffffff"
-        android:id="@+id/HeaderText"
+        android:textSize="70sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_gravity="center_horizontal"
+        android:textSize="20sp"
+        android:textColor="#ffffff"
+        android:id="@+id/h2"
         android:textStyle="bold"
-        android:text="SIGNUP"/>
+        android:text="Explore Bandung From Food"/>
 
-    <!-- <ImageView
-         android:id="@+id/imageView"
-         android:layout_width="200dp"
-         android:layout_height="200dp"
-         android:layout_marginRight="5dp"
-         android:layout_marginTop="10dp"
-         android:layout_gravity="center_horizontal"
-         android:background="@drawable/logo" />
 
     <Space
         android:layout_width="match_parent"
-        android:layout_height="30dp" />
-    android:background="@drawable/edittext_login_form"
-    android:background="@drawable/edittext_login_form"-->
-
-    <Space
-        android:layout_width="match_parent"
-        android:layout_height="190dp" />
+        android:layout_height="200dp" />
 
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textColor="@color/putih"
-        android:id="@+id/username"
         android:layout_marginLeft="32dp"
         android:layout_marginRight="34dp"
         android:hint="username"/>
@@ -56,27 +51,15 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="32dp"
-        android:id="@+id/password"
         android:layout_marginRight="34dp"
         android:layout_marginTop="8dp"
         android:textColor="@color/putih"
         android:inputType="textPassword"
         android:hint="password"/>
-
-    <EditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="32dp"
-        android:id="@+id/re-password"
-        android:layout_marginRight="34dp"
-        android:layout_marginTop="8dp"
-        android:textColor="@color/putih"
-        android:inputType="textPassword"
-        android:hint="re-password"/>
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="SIGNUP"
+        android:text="REGISTER"
         android:textSize="16dp"
         android:textStyle="bold"
         android:layout_marginTop="16dp"
